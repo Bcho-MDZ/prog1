@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/var/www/html/programacion1/tp1"
+		}
+	],
+	"settings":{
+		"xdebug":{"url":"http://localhost/programacion1/tp1/tp1.php"}
+	}
+}
