@@ -9,16 +9,18 @@
 		for ($i=0; $i < 15 ; $i++) { 
 			$arreglo[]=rand(1,50);
 		}
+		$arreglo[0]=0;
+		$arreglo[1]=0;
 		echo "Arreglo original: <br>";
 		print_r($arreglo);
-		for ($i=0; $i < 15; $i++) { 
-			$palabra=$arreglo[i];
-			for ($j=0; $j < 15; $j++) { 
-				if ($arreglo2[j]==$palabra) {
-					break;
+		foreach ($arreglo as $key => $value) {
+			for ($i=0; $i < 15; $i++) { 
+				if ($arreglo2[$key]==$value) {
+					continue;
+				}else{
+					$arreglo2[$key]=$value;
 				}
-			}
-			$arreglo2[i]=$palabra;			
+			}			
 		}
 		print_r($arreglo2);
 	 	echo "</pre>";
