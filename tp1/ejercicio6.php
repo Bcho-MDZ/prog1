@@ -13,6 +13,12 @@
 		$arreglo[1]=0;
 		echo "Arreglo original: <br>";
 		print_r($arreglo);
+
+    /*echo "<br><br>arreglo sin duplicados:<br>";
+    $array = array_unique($array);
+    foreach ($array as $value){
+    echo "$value\n";*/
+
 		foreach ($arreglo as $key => $value) {
 			for ($i=0; $i < 15; $i++) { 
 				if ($arreglo2[$key]==$value) {
