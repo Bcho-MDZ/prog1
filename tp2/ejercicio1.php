@@ -1,4 +1,4 @@
-<form action="receptor.php" method="get" enctype="multipart/form-data">
+<form action="receptorpost.php" method="get" enctype="multipart/form-data">
     <div>
         <label for="usuario">Usuario: </label>
         <input type="text" name="usuario">
