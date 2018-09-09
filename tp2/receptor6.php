@@ -1,7 +1,13 @@
+<pre><table>
 <?php
-/**
- * Created by PhpStorm.
- * User: roi
- * Date: 09/09/18
- * Time: 17:58
- */
+
+for ($i=0;$i<$_GET['filas'];$i++){
+    echo "<tr>";
+    for ($x=0;$x<$_GET['columnas'];$x++){
+        echo "<td>$x</td>";
+    }
+    echo "</tr>";
+}
+
+?>
+</table></pre>
