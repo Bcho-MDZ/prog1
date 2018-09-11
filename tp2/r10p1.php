@@ -9,7 +9,7 @@
                 $y=$i+1;
                 echo "<h3>Producto: $y</h3>";
                 echo "<div>";
-                echo "<label for='cantidad$i'>Cantidad: </label><input type='text' name='cantidad$i' value='0'>";
+                echo "<label for='cantidad$i'>Cantidad: </label><input type='text' name='cantidad$i' placeholder='Ingrese la cantidad a comprar...'>";
                 echo "<br>";
                 echo "<label for='check$i'>Comprar? </label><input type='checkbox' name='check$i' value='1'>";
                 echo "<input type='hidden' name='numero' value='$numero'>";
