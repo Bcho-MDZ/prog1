@@ -23,7 +23,7 @@
         echo "Array ordenado:<br>";
         sort($array);
         print_r($array);
-        $x=(int)($contador/2);
+        $x=ceil($contador/2);
         print_r(array_chunk($array,$x));
 	 ?>
     </pre>
