@@ -10,10 +10,15 @@
         <select name="dia" id="lista">
             <?php
                 for ($i=1;$i<32;$i++){
-                    if ($i==$diaactual){
-                        echo "<option value=\"$i\" selected='selected'>$i</option>";
+                    if($i<10){
+                        $y='0'.$i;
                     }else{
-                        echo "<option value=\"$i\">$i</option>";
+                        $y=$i;
+                    }
+                    if ($i==$diaactual){
+                        echo "<option value=\"$i\" selected='selected'>$y</option>";
+                    }else{
+                        echo "<option value=\"$i\">$y</option>";
                     }
                 }
             ?>
@@ -32,7 +37,7 @@
                 }
             ?>
         </select>
-        <label for="anio">MES</label>
+        <label for="anio">A&NtildeO</label>
         <select name="anio">
             <?php
             for($i=1900;$i<2101;$i++){
