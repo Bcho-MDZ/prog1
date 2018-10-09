@@ -5,7 +5,7 @@
         $pass = $_POST['passwords'];
         $_SESSION['usuario'] = $usuario;
         $_SESSION['pass'] = $pass;
-        header("location: http://localhost/programacion1/tp3/receptor6-2.php");
+        header("location: http://localhost/programacion1/tp3/receptor7-2.php");
     }else{echo "error de sesion";}
 ?>
 </pre>

@@ -1,6 +1,6 @@
 <pre>
     <h3>...Log IN...</h3>
-    <form action="receptor6.php" method="post" enctype="multipart/form-data">
+    <form action="receptor7.php" method="post" enctype="multipart/form-data">
         <label for="user">Usuario</label>
         <input type="text" name="user" placeholder="Ingrese usario aqui...">
         <label for="password">Contraseña</label>
