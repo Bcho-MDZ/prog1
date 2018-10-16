@@ -13,9 +13,9 @@
             fwrite($archivo,$hoy);
             fclose($archivo);
             echo "<h3>Bienvenido {$_SESSION['usuario']}</h3>";
-            echo "<a href=\"e9pagina1.php\">Pagina 1</a><br>";
-            echo "<a href=\"e9pagina2.php\">Pagina 2</a><br>";
-            echo "<a href=\"e9pagina3.php\">Pagina 3</a><br>";
+            echo "<a href=\"e10pagina1.php\">Pagina 1</a><br>";
+            echo "<a href=\"e10pagina2.php\">Pagina 2</a><br>";
+            echo "<a href=\"e10pagina3.php\">Pagina 3</a><br>";
         }else{
             echo "Debe registrarse";
         }

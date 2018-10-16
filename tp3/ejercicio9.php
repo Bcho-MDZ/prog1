@@ -13,3 +13,5 @@ if (file_exists('registro.txt')){
         <input type="submit" value="Ingresar">
     </form>
 </pre>
+
+

@@ -13,9 +13,10 @@
             fwrite($archivo,$hoy);
             fclose($archivo);
             echo "<h3>Usuario: {$_SESSION['usuario']}</h3>";
-            echo "<a href=\"receptor9-2.php\">Volver a HOME</a><br>";
-            echo "<a href=\"e9pagina1.php\">Pagina 1</a><br>";
-            echo "<a href=\"e9pagina2.php\">Pagina 2</a><br>";
+            echo "<a href=\"receptor10-2.php\">Volver a HOME</a><br>";
+            echo "<a href=\"e10pagina1.php\">Pagina 1</a><br>";
+            echo "<a href=\"e10pagina2.php\">Pagina 2</a><br>";
+            echo "<br><br><h4><a href=\"e10pagina4.php\">Ver el Registro</a></h4>";
         }else{
             echo "Debe registrarse";
         }

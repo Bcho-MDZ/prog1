@@ -5,7 +5,7 @@ if (file_exists('registro.txt')){
 ?>
 <pre>
     <h3>...Log IN...</h3>
-    <form action="receptor9.php" method="post" enctype="multipart/form-data">
+    <form action="receptor10.php" method="post" enctype="multipart/form-data">
         <label for="user">Usuario</label>
         <input type="text" name="user" placeholder="Ingrese usario aqui...">
         <label for="password">Contraseña</label>
